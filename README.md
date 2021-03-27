@@ -7,6 +7,7 @@
 - run_analysis.R : compiles the tidydata dataset
 
 **Description of raw data**
+
 Raw input data - Human Activity Recognition Using Smartphones Dataset - was provided by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory www.smartlab.ws  
 
@@ -15,6 +16,7 @@ Data was collected through an experiment with a group of 30 volunteers within an
 For more details on the raw data visit: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 **Description of tidydata**
+
 This dataset is the output from running the run_analysis.R code. This code:
 1) Merges the training and the test sets to create one data set.
 2) Extracts only the measurements on the mean and standard deviation for each measurement. 
