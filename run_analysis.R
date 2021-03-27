@@ -63,8 +63,6 @@ allDatalite <- cbind(select(allData, Subject, Activity),
                      meanMeasures,
                      stdMeasures)
 
-# allDatalite2 <- allData %>%
-#  select(matches('mean|std'))
 
 # (Q3) apply the activity labels
 activityLabels <- read.table("./data/activity_labels.txt", 
